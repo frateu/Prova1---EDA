@@ -24,13 +24,13 @@ namespace Prova1
                         Console.WriteLine("Insira a sequência de nós separados por '-': ");
                         string sequenciaNosPos = Console.ReadLine();
                         tree.posOrdem(sequenciaNosPos);
-                        tree.ViewTree(); //até eu construir a vizualiação mais bonita
+                        tree.ViewTree(); //até eu construir a visualização mais bonita
                         break;
                     case 2:
                         Console.WriteLine("Insira a sequência de nós separados por '-': ");
                         string sequenciaNosIn = Console.ReadLine();
                         tree.inOrdem(sequenciaNosIn);
-                        tree.ViewTree(); //até eu construir a vizualiação mais bonita
+                        tree.ViewTree(); //até eu construir a visualização mais bonita
                         break;
                 }
             } while (verfChos != 0);
